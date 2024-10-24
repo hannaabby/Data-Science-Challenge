@@ -56,9 +56,11 @@ Ensure that the column names are appropriately formatted as shown in the provide
 # How to Run the Code
 
 - Prepare the Data: Ensure the CSV files are placed in the correct path.
-- Run the Script: Execute the Python script to start the embedding generation, training, and evaluation process.
+- Execute the Python script (embedding.py) for data preparation , model arhciture and embedding generation.
+- Execute the Python script (training.py) for classifier prediction and model evaluation
 
-- python drug_disease_link_prediction.py
+- python embedding.py
+- python training.py
 
 - View Results: The script will print training progress and final evaluation metrics to the console. Node embeddings will be saved to node_embeddings.csv.
 Note
